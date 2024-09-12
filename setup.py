@@ -37,14 +37,14 @@ def read_long_description() -> str:
         return "Long description not available. Please see the GitHub repository."
 
 setup(
-    name='sensor_detection',
+    name='PropBots',
     version='0.0.1',
     author='Mohit Verma',
     author_email='mohitvvermaa@outlook.com',
-    description='A Generative AI project for vehicle sensor detection and analysis.',
+    description='A Generative AI project for Property Bots',
     long_description=read_long_description(),
     long_description_content_type='text/markdown',  # This ensures the README is interpreted as Markdown
-    url='https://github.com/mohitvverma/Vehicle-Sensor-Detection',
+    url='https://github.com/mohitvverma/PropBot',
     packages=find_packages(),
     install_requires=requirements(),
     extras_require={
@@ -64,7 +64,7 @@ setup(
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
         'Operating System :: OS Independent',
     ],
-    keywords='generative-ai sensor detection machine-learning',
+    keywords='generative-ai chatbot NLP',
     python_requires='>=3.7',  # Specify the Python version compatibility
     license='MIT',  # Specify the license
     include_package_data=True,  # Includes non-Python files specified in MANIFEST.in
