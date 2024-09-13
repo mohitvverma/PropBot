@@ -2,6 +2,7 @@
 
 ##### PropBots is a modular Python project designed for production environments. It integrates data preprocessing, model management, and custom retrieval mechanisms for applications like document and image processing, model orchestration, and vectorized retrieval.
 
+
 ```
 PropBots/
 ├── Artifacts/             # Processed data or model artifacts
